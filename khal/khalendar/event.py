@@ -226,12 +226,12 @@ class Event(object):
             recurstr = ''
         tostr = '-'
         if self.start < local_start:
-            startstr = u'→ '
+            startstr = self.rangestartstr
             tostr = ''
         else:
             startstr = self.start.strftime(timeformat)
         if self.end > local_end:
-            endstr = u' → '
+            endstr = self.rangestartstr
             tostr = ''
         else:
             endstr = self.end.strftime(timeformat)
