@@ -79,7 +79,7 @@ setup(
     url='http://lostpackets.de/khal/',
     license='Expat/MIT',
     packages=['khal', 'khal/ui', 'khal/khalendar'],
-    scripts=['bin/khal', 'bin/ikhal'],
+    scripts=['bin/khal', 'bin/ikhal', 'bin/xkhal'],
     install_requires=requirements,
     extras_require=extra_requirements,
     classifiers=[
